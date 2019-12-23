@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Yoga Plus.iml" filepath="$PROJECT_DIR$/.idea/Yoga Plus.iml" />
+      <module fileurl="file:///Applications/MAMP/htdocs/webukatu/responsive_original/.idea/responsive_original.iml" filepath="/Applications/MAMP/htdocs/webukatu/responsive_original/.idea/responsive_original.iml" />
+    </modules>
+  </component>
+</project>
