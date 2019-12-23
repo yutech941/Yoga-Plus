@@ -1,0 +1,36 @@
+// ==============================
+// 変数
+// ==============================
+$font-color_default: #222222;
+$font-color_date: #C0C0C0;
+$color_emphasis:#8EF1FF ;
+$site-width: 1000px;
+$font-size_s: 12px;
+$font-size_m: 14px;
+$font-size_default: 16px;
+$font-size_l: 18px;
+$font-size_xl: 24px;
+$font-size_xxl: 30px;
+$font-size_3l: 38px;
+
+$font-size_max :100%;
+
+$space_s: 5px;
+$space_m: 10px;
+$space_l: 15px;
+
+$space_xl: 20px;
+$space_xxl: 30px;
+$space_3l: 40px;
+
+$letter_space_big :0.1em;
+
+$bg-color_white:#DDDDDD;
+
+// ブレークポイント
+$breakpoints: (
+        'sm': 'screen and (max-width: 414px)',
+        'md': 'screen and (max-width: 768px)',
+        'lg': 'screen and (max-width: 1000px)',
+        'xl': 'screen and (max-width: 1200px)',
+) !default;
