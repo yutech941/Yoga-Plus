@@ -1,0 +1,21 @@
+// ==================================
+// hero
+// ==================================
+.l-hero{
+  background-image:url('../images/hero.jpg');
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:700px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  &__title{
+  font-size:$font-size_xxl;
+  text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
+@include mq(){
+  text-align:center;
+}
+ }
+}
