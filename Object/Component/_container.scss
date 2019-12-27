@@ -1,0 +1,30 @@
+// ==================================
+// container
+// ==================================
+.c-container {
+  width: $site-width;
+  @include mq() {
+    width: 100%;
+  }
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 120px;
+
+  &__title {
+    text-align: center;
+    font-size: $font-size_xl;
+    margin-bottom: $space_3l;
+    @include mq() {
+      width: 70%;
+      margin-left: auto;
+      margin-left: auto;
+    }
+  }
+  &__body{
+    @include mq(){
+      padding-left:$space_l;
+      padding-right:$space_l;
+    }
+  }
+}
