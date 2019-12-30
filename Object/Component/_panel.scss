@@ -1,0 +1,38 @@
+// ==================================
+// panel
+// ==================================
+.c-panel {
+  box-sizing: border-box;
+  position: relative;
+  margin-right: $space_l;
+  margin-bottom: $space_l;
+  box-sizig: border-box;
+  &__middle{
+    font-size:$font-size_l;
+    color:#666666;
+    font-weight:bold;
+    padding:$space_m;
+  }
+  &__foot{
+    font-size:$font-size_m;
+    padding:10px;
+  }
+  &__border{
+    border-radius:5px;
+    border:5px solid #f6f5f4;
+  }
+  &__group{
+    margin-right:-$space_l;
+    &--flex{
+      display:flex;
+      flex-wrap:wrap;
+    }
+  }
+  &__mission{
+    width:calc(33.3% - #{$space_l});
+    @include mq(){
+      width:100%;
+      margin: 0 auto $space_l auto;
+    }
+  }
+}
