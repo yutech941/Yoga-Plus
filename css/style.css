@@ -152,10 +152,22 @@ img {
 
 .c-panel {
   box-sizing: border-box;
-  position: relative;
   margin-right: 15px;
   margin-bottom: 15px;
-  box-sizig: border-box; }
+  box-sizig: border-box;
+  overflow: hidden; }
+  .c-panel--hover {
+    display: inline-block;
+    transition: .5s; }
+    .c-panel--hover:hover {
+      cursor: pointer;
+      transform: scale(1.03);
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+      transition: .5s; }
+  .c-panel__img {
+    width: 50%;
+    height: 50%;
+    margin: auto; }
   .c-panel__title {
     font-size: 18px;
     color: #666666;
@@ -163,8 +175,7 @@ img {
     padding: 10px;
     text-align: center; }
   .c-panel__text {
-    font-size: 14px;
-    padding: 10px; }
+    font-size: 14px; }
   .c-panel__group {
     margin-right: -15px; }
     .c-panel__group--flex {
@@ -181,6 +192,12 @@ img {
     @media screen and (max-width: 768px) {
       .c-panel__lesson {
         width: 100%;
+        margin: 0 auto 15px auto; } }
+  .c-panel__instructor {
+    width: calc(25% - 15px); }
+    @media screen and (max-width: 768px) {
+      .c-panel__instructor {
+        width: 50%;
         margin: 0 auto 15px auto; } }
 
 /* Project

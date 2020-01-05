@@ -3,41 +3,67 @@
 // ==================================
 .c-panel {
   box-sizing: border-box;
-  position: relative;
   margin-right: $space_l;
   margin-bottom: $space_l;
   box-sizig: border-box;
-  &__title{
-    font-size:$font-size_l;
-    color:#666666;
-    font-weight:bold;
-    padding:$space_m;
-    text-align:center;
-  }
-  &__text{
-    font-size:$font-size_m;
-    padding:10px;
-  }
-  &__lesson-img img{
-  }
-  &__group{
-    margin-right:-$space_l;
-    &--flex{
-      display:flex;
-      flex-wrap:wrap;
+  overflow:hidden;
+  &--hover {
+    display: inline-block;
+    transition: .5s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.03);
+      box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+      transition: .5s;
+
     }
   }
-  &__mission{
-    width:calc(33.3% - #{$space_l});
-    @include mq(){
-      width:100%;
+&__img{
+  width:50%;
+  height:50%;
+  margin:auto;
+}
+  &__title {
+    font-size: $font-size_l;
+    color: #666666;
+    font-weight: bold;
+    padding: $space_m;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: $font-size_m;
+  }
+
+  &__group {
+    margin-right: -$space_l;
+
+    &--flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__mission {
+    width: calc(33.3% - #{$space_l});
+    @include mq() {
+      width: 100%;
       margin: 0 auto $space_l auto;
     }
   }
-  &__lesson{
-    width:calc(33.3% - #{$space_l});
-    @include mq(){
-      width:100%;
+
+  &__lesson {
+    width: calc(33.3% - #{$space_l});
+    @include mq() {
+      width: 100%;
+      margin: 0 auto $space_l auto;
+    }
+  }
+
+  &__instructor {
+    width: calc(25% - #{$space_l});
+    @include mq() {
+      width: 50%;
       margin: 0 auto $space_l auto;
     }
   }
