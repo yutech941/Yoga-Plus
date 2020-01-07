@@ -7,15 +7,35 @@
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
+  color:white;
+  font-weight:bold;
   height:700px;
   display:flex;
   justify-content:center;
   align-items:center;
-  &__title{
-  font-size:$font-size_xxl;
-  text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
-@include mq(){
-  text-align:center;
-}
- }
-}
+  position:relative;
+  &__title {
+    font-size: 80px;
+    font-family: $font-family_corp;
+    position: absolute;
+    bottom: 150px;
+    text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
+  }
+  &__sub-title{
+    font-size: 70px;
+    font-family: $font-family_corp;
+    position: absolute;
+    bottom: 30px;
+    text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
+  }
+    @include mq() {
+      text-align: center;
+      position: relative;
+      &__title {
+        font-size: 40px;
+        font-family: $font-family_corp;
+        position: absolute;
+        bottom: 100px;
+      }
+    }
+  }

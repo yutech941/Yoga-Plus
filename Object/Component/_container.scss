@@ -10,7 +10,8 @@
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 120px;
-  &__title  {
+
+  &__title {
     text-align: center;
     font-size: $font-size_xxl;
     margin-bottom: $space_xxl;
@@ -19,15 +20,18 @@
       margin-left: auto;
       margin-right: auto;
     }
-    }
-  &__title_sub{
+  }
+
+  &__title_sub {
     text-align: center;
     font-size: $font-size_l;
     margin-bottom: $space_xl;
   }
-  &__about{
-    margin-bottom:$space_3l;
+
+  &__about {
+    margin-bottom: $space_3l;
   }
+
   &__body {
     @include mq() {
       padding-left: $space_l;
@@ -37,7 +41,7 @@
 
   &__ornament {
     .c-container__title {
-      .c-ornament__title {
+      span {
         display: inline-block;
         background: #fff;
         padding: 0 10px;
@@ -60,6 +64,6 @@
       &:after {
         top: -28px;
       }
-        }
-      }
     }
+  }
+}
