@@ -21,4 +21,10 @@
   &__title{
     font-size:$font-size_m;
   }
+  br{
+    display:none;
+  @include mq(){
+  display:block;
+    }
+  }
 }

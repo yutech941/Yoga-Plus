@@ -12,7 +12,7 @@
 
 <body>
     <!-- ヘッダー -->
-    <header class ="l-header"  class="js-float-menu">
+    <header class ="l-header js-float-menu">
         <div class="l-header__logo-area">
             <a href="">
                 <img src="./images/logo.png">
@@ -39,15 +39,13 @@
             </nav>
         </div>
     </header>
-    <div class="empty">
 
-    </div>
 
 <main>
     <!-- ヒーローバナー -->
     <section class="l-hero js-float-menu-target">
         <h2 class="l-hero__title">なりたい姿になれる場所</h2>
-        <h3 class="l-hero__sub-title">ヨガのある生活</h3>
+        <h3 class="l-hero__sub-title">-ヨガのある生活-</h3>
 
     </section>
 
@@ -60,18 +58,21 @@
                 <li class="p-news__item">
                     <a class="p-news__link"  href="">
                         <span class="p-news__date">2019年12月10日</span>
+                        <br class="p-news__br">
                         <span class="p-news__title">クリスマスパーティー開催</span>
                     </a>
                 </li>
                 <li class="p-news__item">
                     <a class="p-news__link"  href="">
                         <span class="p-news__date">2019年11月23日</span>
+                        <br class="p-news__br">
                         <span class="p-news__title">Yoga Plus 六本木店をご利用する場合のお願い</span>
                     </a>
                 </li>
                 <li class="p-news__item">
                     <a class="p-news__link"  href="">
                         <span class="p-news__date">2019年10月30日</span>
+                        <br class="p-news__br">
                         <span class="p-news__title">公式アプリでレッスン予約が可能になりました</span>
                     </a>
                 </li>
@@ -83,6 +84,7 @@
 <section class="u-bg-Color" id="about">
     <div class="c-container">
     <h2 class="c-container__title"><span class="u-Emphasis__title">Yoga Plusが初めての方へ</span></h2>
+        <div class="c-container__body">
 <div class="c-container__about">
     <p>Yoga Plusは、東京・大阪・福岡に展開するホットヨガ専門スタジオです。
         みなさまにヨガを正しく体験していただくことで、
@@ -90,6 +92,7 @@
         さらには、心身ともに健康になることで、ご家庭や職場、学校など現代社会において健やかに過ごしていただけると考えています。
     </p>
 </div>
+        </div>
         <h3 class="c-container__title_sub"><span class="u-Emphasis__title">Yoga Plusが大切にしていること</span></h3>
     <div class="c-container__body">
         <div class="c-panel c-panel__group c-panel__group--flex">
@@ -282,5 +285,11 @@
 <footer id="footer">
     <p>Copyright © Yuichi All Rights Reserved</p>
 </footer>
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>

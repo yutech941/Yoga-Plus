@@ -22,9 +22,9 @@
 .c-menu{
   display:flex;
   align-items:center;
-  font-size:$font-size_xl;
+  font-size:$font-size_ll;
   &__item{
-    margin-right:$space_xl;
+    margin-right:50px;
   }
   &__link{
     -webkit-font-smoothing:initial;

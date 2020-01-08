@@ -16,6 +16,7 @@
     font-size: $font-size_xxl;
     margin-bottom: $space_xxl;
     @include mq() {
+      font-size: $font-size_ll;
       width: 70%;
       margin-left: auto;
       margin-right: auto;
@@ -24,8 +25,11 @@
 
   &__title_sub {
     text-align: center;
-    font-size: $font-size_l;
+    font-size: $font-size_xl;
     margin-bottom: $space_xl;
+    @include mq() {
+      font-size:$font-size_l;
+    }
   }
 
   &__about {
@@ -63,6 +67,14 @@
 
       &:after {
         top: -28px;
+      }
+      @include mq() {
+        &:before {
+          top: 20px;
+        }
+        &:after{
+          top:-20px;
+        }
       }
     }
   }
