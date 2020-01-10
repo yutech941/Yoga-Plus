@@ -56,6 +56,9 @@ img {
   justify-content: center;
   align-content: center;
   position: relative; }
+  @media screen and (max-width: 768px) {
+    .l-hero {
+      background-attachment: scroll; } }
   .l-hero__title {
     font-size: 85px;
     font-family: "Mplus 1p";
@@ -313,6 +316,9 @@ img {
   border-radius: 5px;
   background: #f8f4e6;
   padding: 15px 20px; }
+  @media screen and (max-width: 768px) {
+    .p-news {
+      width: 90%; } }
   .p-news__item {
     margin-bottom: 5px; }
   .p-news__date {
@@ -336,7 +342,7 @@ img {
     margin-right: auto; }
     @media screen and (max-width: 768px) {
       .p-form__m {
-        width: 100%; } }
+        width: 80%; } }
 
 .p-input {
   margin-bottom: 10px;

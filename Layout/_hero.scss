@@ -14,7 +14,9 @@
   justify-content: center;
   align-content: center;
   position: relative;
-
+@include mq(){
+  background-attachment: scroll;
+}
   &__title {
     font-size: 85px;
     font-family: $font-family_corp;

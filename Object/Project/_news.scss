@@ -9,6 +9,9 @@
   border-radius:5px;
   background: $bg-color_ivory;
   padding:$space_l $space_xl;
+  @include mq(){
+    width:90%;
+  }
   &__item{
     margin-bottom:$space_s;
   }
