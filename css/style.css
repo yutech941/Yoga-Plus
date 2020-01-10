@@ -79,15 +79,24 @@ img {
       .l-hero__title {
         position: absolute;
         bottom: 200px;
-        font-size: 30px;
-        font-family: "Mplus 1p";
-        text-shadow: 0 0 20px rgba(227, 123, 137, 0.4), 0 0 50px rgba(0, 0, 0, 0.8); }
+        font-size: 30px; }
       .l-hero__sub-title {
         position: absolute;
         bottom: 150px;
-        font-size: 25px;
-        font-family: "Mplus 1p";
-        text-shadow: 0 0 20px rgba(227, 123, 137, 0.4), 0 0 50px rgba(0, 0, 0, 0.8); } }
+        font-size: 25px; } }
+  @media screen and (max-width: 414px) {
+    .l-hero {
+      text-align: center;
+      position: relative;
+      height: 100vh; }
+      .l-hero__title {
+        position: absolute;
+        bottom: 160px;
+        font-size: 25px; }
+      .l-hero__sub-title {
+        position: absolute;
+        bottom: 140px;
+        font-size: 20px; } }
 
 #footer {
   background: #F7971E;

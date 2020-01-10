@@ -41,15 +41,26 @@
       position:absolute;
       bottom:200px;
       font-size: 30px;
-      font-family: $font-family_corp;
-      text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
     }
     &__sub-title {
       position:absolute;
       bottom:150px;
       font-size: 25px;
-      font-family: $font-family_corp;
-      text-shadow: 0 0 20px rgba(227, 123, 137, .4), 0 0 50px rgba(0, 0, 0, .8);
+      }
+  }
+  @include mq(sm) {
+    text-align: center;
+    position:relative;
+    height:100vh;
+    &__title {
+      position:absolute;
+      bottom:160px;
+      font-size: 25px;
+    }
+    &__sub-title {
+      position:absolute;
+      bottom:140px;
+      font-size: 20px;
     }
   }
 }
