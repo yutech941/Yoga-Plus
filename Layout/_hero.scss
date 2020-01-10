@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   color: white;
   font-weight: bold;
-  height: 700px;
+  height:100vh;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -32,9 +32,9 @@
   }
 
   @include mq() {
-    height:600px;
     text-align: center;
     position:relative;
+    height:100vh;
     &__title {
       position:absolute;
       bottom:200px;

@@ -20,14 +20,4 @@
     background:#FFFFFF;
     opacity:1;
   }
-  @include mq(){
-    height:60px;
-    padding-right:$space_l;
-    padding-left:$space_l;
   }
-  .c-title{
-    font-size:$font-size_xxl;
-    font-family:$font-family_corp;
-    font-weight:bold;
-  }
-}
